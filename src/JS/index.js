@@ -18,7 +18,7 @@ personagens.forEach(personagem => {
 
         const idpersonagem = personagem.attributes.id.value;
 
-        imagempersonagemgrande.src = `../src/imagens/card-${idpersonagem}.png`;
+        imagempersonagemgrande.src = `./src/imagens/card-${idpersonagem}.png`;
 
         const nomepersonagem = document.getElementById('nome-personagem');
 
